@@ -1,4 +1,27 @@
-  
+
+
+
+.header{
+  background-color: blue;
+  color: white;
+  font-family: 'SeafordBold';
+  text-align: center;
+}
+
+.Professional{
+  font: bold;
+}
+
+.HeaderBody
+{
+  color: black;
+  background-color: yellow;
+}
+
+.content{
+  color: red;
+}
+
  
   @font-face { 
     font-family: SeafordBold; 
@@ -18,15 +41,11 @@
       margin: auto;
 
     }
- h1 {
-    color: navy;
-    font-family: 'SeafordBold';
-    text-align: center;
-  }
+ 
 
   h2 {
     font-family: SeafordRg;
-    color: navy;
+    color: purple;
 }
 
   p.myP{
@@ -35,10 +54,7 @@
    text-justify: inter-word;
   }
 
-  p{
-    font-family: SeafordRg;
-    color: black;
-  }
+ 
 
   p.myP:hover{background-color: #ddd;}
 
@@ -74,34 +90,12 @@ ol li {
     color: blue;     
 } 
 
-
-#mytable {
-    font-family: SeafordRg;
-    border-collapse: collapse;
-    width: 30%;
-  }
-  
-  #mytable td, #mytable th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  #mytable tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #mytable tr:hover {background-color: #ddd;}
-  
-  #mytable th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: grey;
-    color: white;
-  }
-
   label { display: inline-block; width: 70px; text-align: right; }
  
  img.myImage{
-  height: 140px;
-  width: 150px;
+  height: 400px;
+  width: 500px;
   border-radius: 50%;
+  display: block;
+  margin-right: auto;
  }
